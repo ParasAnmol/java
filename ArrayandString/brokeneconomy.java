@@ -16,8 +16,9 @@ public static void be(int[] a, int k){
             ceil = a[mid];
         }
         else{
-            System.out.println(a[mid]);  
-            return;
+            ceil = a[mid];
+            floor = a[mid]; 
+            break;
         }
     }
     System.out.println(ceil);
